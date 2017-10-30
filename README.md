@@ -5,20 +5,6 @@ This app uses Cheerio to scrape news articles from a site and allows the user to
 ## Getting Started
 https://steve-news-scraper.herokuapp.com/
 
-## Screen Shots
-
-![Screen shot](public/assets/img/article.png)
-Scraped news articles from The Verge
-
-![Screen shot](public/assets/img/readArticle.png)
-Article page to read each article
-
-![Screen shot](public/assets/img/leaveComment.png)
-Add comments by filling in the form
-
-![Screen shot](public/assets/img/commentSaved.png)
-Add comments by filling in the form
-
 ## Technologies used
 - Node.js
 - Handlebars - http://handlebarsjs.com/

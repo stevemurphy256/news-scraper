@@ -3,14 +3,14 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var ArticleSchema = new Schema({
-	title: {
+  title: {
     type: String,
-  	required: true
-    },
-  link: {
-    type: String, 
     required: true
-    },
+  },
+  link: {
+    type: String,
+    required: true
+  },
   comment: [{
     type: Schema.Types.ObjectId,
     ref: "Comment"
@@ -19,5 +19,7 @@ var ArticleSchema = new Schema({
 
 var Article = mongoose.model("Article", ArticleSchema);
 
-// export model
+//export model
 module.exports = Article;
+
+

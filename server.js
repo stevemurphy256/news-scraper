@@ -21,7 +21,7 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 // connect to MongoDB and leverage ES6 Promises
-mongoose.Promise = Promise;
+// mongoose.Promise = Promise;
 mongoose.connect('mongodb://localhost/scraped_news');
 
 

@@ -26,4 +26,4 @@ https://steve-news-scraper.herokuapp.com/
 
 ## Authors
 
-* **Steven Murphy** - Full Stack Developer - [Steve Murphy](https://github.com/stevemurphy256)
+* **Steve Murphy** - Full Stack Developer - [Steve Murphy](https://github.com/stevemurphy256)
